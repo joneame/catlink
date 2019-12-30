@@ -1,0 +1,120 @@
+/*
+ * catlink.eu
+ * css stylesheet
+ */
+
+@charset "UTF-8";
+html {
+	font-size: 100%; /*Fix a IE em BUG*/
+}
+font, basefont {
+	font-size: 100%; /*Fix a IE em BUG*/
+}
+body {
+	font-family: "Helvetica neue", Helvetica, Arial, Verdana, sans-serif;
+	font-size:12px;
+	color: #555555;
+	margin: 0px;
+	padding: 0px;
+	text-align: center; /* IE5 hack */
+	background: #5b90c4 ;
+	
+}
+
+/* DIVak */
+#wrapper {
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding: 0px;
+	line-height: 1em;
+	background-image:url(bg.png);
+	border:thin;
+	
+	}
+	
+
+  
+#catlogo {
+  padding-top: 10px;
+  border: 0;
+  margin-bottom:20px;
+ }
+ #catmenu {
+ background-image:url(bg.png);
+ padding: 4px;
+ }
+ 
+ #sexycat {
+ margin-top:20px;
+ padding: 8px;
+ background-image:url(bg.png);
+ height:270px;
+ }
+ #right {
+ float: left;
+ width: 20%;
+ padding-top: 4px;
+ height: auto;
+ font-size:10px;
+ 
+ background-image:url(bg.png);
+ }
+ 
+ #right img {
+ border-color: #CCCCCC;
+ border: none;
+ }
+ #left {
+ width:80%;
+ height:250px;
+ float: left;
+ color:#000000;
+ }
+ 
+ #left input {
+ border: 1px;
+ border-color:#000000;
+ background: #5b90c4 ;
+ color:#FFFFFF;
+
+ }
+ 
+ #left .title {
+ font-size:14px;
+ font-stretch: narrower;
+ 
+ }
+ 
+ .smalltxt {
+ font-size:9px;
+ }
+ 
+ #bottom {
+ margin-top: 15px;
+ background-image:url(bg.png);
+ padding: 2px;
+ height:auto;
+ }
+
+
+
+/* Testuak */
+
+a, a.active {
+	text-decoration: none;
+	font-weight: bold;
+	color: #525062;
+}
+a:link, a.active:link {
+	color: #525062;
+}
+a:visited, a.active:visited {
+	color: #5f5d73;
+}
+a:hover, a.active:hover {
+	color: #6d6a86;
+	text-decoration: underline;
+}
+a:focus, a.active:focus {
+	outline: none;
+}
